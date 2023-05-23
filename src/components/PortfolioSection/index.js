@@ -19,7 +19,7 @@ function Portfolio() {
           <div className="card-img-overlay">
             <div className="img-title">Gmail Clone</div>
             <div className="img-description">
-              <p>Authendicated User can send Email and Read Email .</p>
+              <p>Authenticated User can send Email and Read Email .</p>
               <p>
                 User can send, receive & reply mails between them. Multi user communication & advanced drafting features will be included in future.
               </p>
