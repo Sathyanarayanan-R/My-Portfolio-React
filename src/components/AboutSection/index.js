@@ -24,7 +24,7 @@ function About() {
               company willing to offer me a placement among their developers.
               In return, I would offer my full commitment, and be a pleasant and
               friendly addition to your team, I am therefore currently looking for
-              a job as a Full Stack JavaScript Developer.
+              a job as a Full Stack Developer.
             </p>
 
             <a
