@@ -16,6 +16,115 @@
       crossorigin="anonymous"
     ></script>
     <title>Sathyanarayanan's Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+
+  <script>
+
+    let dynamicData_1 = ['<b>User 1</b>', 'Email : rsathyajana2000@gmail.com', 'Password : sathya123', '<b>User 2</b>', 'Email : hrydgard@gmail.com', 'Password : henrik123'];
+    let dynamicData_2 = ['<b>Admin</b>', 'Email : admin@example.com', 'Password: Admin@123', '<b>User</b>', 'Email : murugan@example.com', 'Password: Murugan@123'];
+    let dynamicData_3 = ['<b>Admin</b>', 'Email : admin@gmail.com', 'Password: admin1', '<b>Manager</b>', 'Email : manager@gmail.com', 'Password: manager1', '<b>Employee</b>', 'Email : employee@gmail.com', 'Password: employee1'];
+    let dynamicData_4 = ['<b>User 1</b>', 'Email : sathya@gmail.com', 'Password : sathya123', '<b>User 2</b>', 'Email : jana@gmail.com', 'Password : jana123'];
+
+    $(document).ready(function () {
+      $('[data-toggle="popover_1"]').popover({
+        title: "<h5>Login Credentials</h5>",
+        content: function () {
+          let resultData = $(`<div>`);
+          for (let i in dynamicData_1) {
+            if (i % 3 == 0) resultData = resultData.add(`<div>`)
+            resultData = resultData.add(
+              `<li class="list-group-item d-flex justify-content-between align-items-center">
+                    `+ dynamicData_1[i] + `
+                </li>`
+            );
+            if ((i + 1) % 3 == 0) resultData = resultData.add(`</div>`)
+            console.log(i, dynamicData_1[i]);
+          }
+
+          resultData = resultData.add(`<br/><button class='btn btn-danger' id ='funcid'>Close</button></div>`);
+
+          return resultData;
+        }
+      });
+
+      $('[data-toggle="popover_2"]').popover({
+        title: "<h5>Login Credentials</h5>",
+        content: function () {
+          let resultData = $(`<div>`);
+          for (let i in dynamicData_2) {
+            if (i % 3 == 0) resultData = resultData.add(`<div>`)
+            resultData = resultData.add(
+              `<li class="list-group-item d-flex justify-content-between align-items-center">
+                    `+ dynamicData_2[i] + `
+                </li>`
+            );
+            if ((i + 1) % 3 == 0) resultData = resultData.add(`</div>`)
+            console.log(i, dynamicData_2[i]);
+          }
+
+          resultData = resultData.add(`<br/><button class='btn btn-danger' id ='funcid'>Close</button></div>`);
+
+          return resultData;
+        }
+      });
+
+      $('[data-toggle="popover_3"]').popover({
+        title: "<h5>Login Credentials</h5>",
+        content: function () {
+          let resultData = $(`<div>`);
+          for (let i in dynamicData_3) {
+            if (i % 3 == 0) resultData = resultData.add(`<div>`)
+            resultData = resultData.add(
+              `<li class="list-group-item d-flex justify-content-between align-items-center">
+                    `+ dynamicData_3[i] + `
+                </li>`
+            );
+            if ((i + 1) % 3 == 0) resultData = resultData.add(`</div>`)
+            console.log(i, dynamicData_3[i]);
+          }
+
+          resultData = resultData.add(`<br/><button class='btn btn-danger' id ='funcid'>Close</button></div>`);
+
+          return resultData;
+        }
+      });
+
+      $('[data-toggle="popover_4"]').popover({
+        title: "<h5>Login Credentials</h5>",
+        content: function () {
+          let resultData = $(`<div>`);
+          for (let i in dynamicData_4) {
+            if (i % 3 == 0) resultData = resultData.add(`<div>`)
+            resultData = resultData.add(
+              `<li class="list-group-item d-flex justify-content-between align-items-center">
+                    `+ dynamicData_4[i] + `
+                </li>`
+            );
+            if ((i + 1) % 3 == 0) resultData = resultData.add(`</div>`)
+            console.log(i, dynamicData_4[i]);
+          }
+
+          resultData = resultData.add(`<br/><button class='btn btn-danger' id ='funcid'>Close</button></div>`);
+
+          return resultData;
+        }
+      });
+
+    });
+
+    $(document).on("click", "#funcid", function () {
+      $(this).parents(".popover").popover('hide');
+    });
+  </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
