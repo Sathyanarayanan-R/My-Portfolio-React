@@ -25,7 +25,7 @@ function Portfolio() {
             <div className="img-title">DevConnector</div>
             <div className="img-description">
               <p>
-                DevConnector is mainly designed to share the ideas, skills and knowledge to wide developers around the world. New Bees can easily interact with the experienced developers and they can tune their skills. Also, Developers can expose their sharing and teaching skills.
+                DevConnector - DevConnector is mainly designed to share the ideas, skills and knowledge to wide developers around the world. Developer can easily interact with the other developers via Chat/Post and they can tune their skills. Also, Developers can expose their sharing and teaching skills.
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
