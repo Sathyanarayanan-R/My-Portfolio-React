@@ -7,9 +7,11 @@ function Contact() {
       <h1 className="logo-text">Contact</h1>
       <div className="mail-contact mb-5">
         <h4 className="px-2">Do you want to hire me?</h4>
+        
         <a
-          href="mailto:rsathyajana2000@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=rsathyajana2000@gmail.com"
           rel="noreferrer"
+          target="_blank"
           className="btn btn-sm btn-success"
         >
           Let's Discuss
