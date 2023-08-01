@@ -1,7 +1,7 @@
 #contact{
     background-color:#0c0c0c;
     width: 100%;
-    height:calc(100vh - 60px)/* 100vh 72px*/;
+    height:calc(100vh - 150px)/* 100vh 72px*/;
     box-sizing: border-box;
     padding : 15px 5rem;
     padding-top: 2.5rem;
