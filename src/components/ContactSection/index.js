@@ -6,7 +6,7 @@ function Contact() {
     <div id="contact">
       <h1 className="logo-text">Contact</h1>
       <div className="mail-contact mb-5">
-        <h4 className="px-2">Do you want to hire me?</h4>
+        {/* <h4 className="px-2">Do you want to hire me?</h4>
         
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=rsathyajana2000@gmail.com"
@@ -15,7 +15,7 @@ function Contact() {
           className="btn btn-sm btn-success"
         >
           Let's Discuss
-        </a>
+        </a> */}
       </div>
       <div className="mail-contact mb-5">
         <div className="contacts p-4 text-center">
