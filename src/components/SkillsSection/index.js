@@ -63,6 +63,17 @@ function Skills() {
               labelColor="#ffffff"
             />
           </div>
+          <div className="skillName">
+            <p>Python</p>
+            <ProgressBar
+              completed={90}
+              bgColor="#01bf71"
+              height="15px"
+              isLabelVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
         </div>
         <div className="col-md-6 col-sm-12" data-aos="flip-right">
           <div className="skillName">
@@ -113,6 +124,17 @@ function Skills() {
             <p>CSS</p>
             <ProgressBar
               completed={80}
+              bgColor="#01bf71"
+              height="15px"
+              isLabelVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+          <div className="skillName">
+            <p>Django</p>
+            <ProgressBar
+              completed={95}
               bgColor="#01bf71"
               height="15px"
               isLabelVisible={true}

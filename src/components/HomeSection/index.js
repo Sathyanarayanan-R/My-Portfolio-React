@@ -19,7 +19,7 @@ function HeroSection() {
         <HomeH1>Sathyanarayanan R</HomeH1>
         <HomeP>
           I'm a passionate{" "}
-          <span style={{ borderBottom: "3px solid green" }}>Web Developer</span>{" "}
+          <span style={{ borderBottom: "3px solid green" }}>Full Stack Developer</span>{" "}
           from India
         </HomeP>
         <span className="float-left">

@@ -16,7 +16,7 @@ function About() {
           </div>
           <div className="col-md-6 col-sm-12" data-aos="fade-left">
             <p>
-            Courteous and enthusiastic, I have over 3.5 years of working experience in the IT industry. Basically, I love programming & interested in Software Development. I recently began to be fascinated by web programming, e.g., developing apps and building websites. I gained some experience of working in this area. Furthermore, I am keen to gain more experience in this field, for this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team, I am therefore currently looking for a job as a Full Stack Developer.
+            Ambitious and technically adept Full Stack Developer with 5 years of industry experience, specializing in React and Django development. My career is marked by a track record of building robust systems that enhance user interface and experience, achieving a 99.9% uptime for business-critical applications, and notably improving system efficiencies.
             </p>
 
             <a

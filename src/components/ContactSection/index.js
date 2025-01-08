@@ -26,7 +26,7 @@ function Contact() {
         </div>
         <div className="contacts p-4 text-center mb-3">
           <i className="fad fa-map-marker-alt"></i>{" "}
-          <span>Madurai, TamilNadu</span>
+          <span>Chennai, TamilNadu</span>
         </div>
       </div>
       <div className="footer mt-3">
@@ -50,7 +50,7 @@ function Contact() {
           </a>
           &emsp;
         </span>
-        <span>Copyright © 2023. </span>&emsp;{" "}
+        <span>Copyright © 2025. </span>&emsp;{" "}
         <span> All Rights Reserved by Sathyanarayanan R </span>
       </div>
     </div>
